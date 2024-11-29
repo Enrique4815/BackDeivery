@@ -46,7 +46,7 @@ productRoutes(app, upload);
 addressRoutes(app);
 ordersRoutes(app);
 
-server.listen(3000, '192.168.56.1' || 'localhost', function(){
+server.listen(port, function(){
     console.log('Aplicación de NodeJS ' + process.pid + ' Iniciada...')
 })
 
